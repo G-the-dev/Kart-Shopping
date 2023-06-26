@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+   <script src="https://kit.fontawesome.com/19decec724.js" crossorigin="anonymous"></script>
+   <title>Cart</title>
+</head>
+
+<body>
+   <div class="cart-container">
+      <div class="Header-1">
+         <h3 class="Heading">Shopping Cart</h3>
+         <h4 class="pdt-name">Product Name</h4>
+         <h4 class="Qty">Quantity</h4>
+         <h5 class="Action">Remove all</h5>
+      </div>
+      <div class="Cart-Items">
+         <div class="image-box">
+            <img src="images/buy-1.jpg" style="height:120px;">
+         </div>
+         <div class="about">
+            <h1 class="title-1">Pdt name</h1>
+            <h3 class="subtitle">sub name</h3>
+            <img src="images/buy-2.jpg" style="height:30px;">
+         </div>
+         <div class="counter">
+            <div class="btn-1">+</div>
+            <div class="count"><input type="text" name="name" value="1"></div>
+            <div class="btn-1">-</div>
+         </div>
+         <!-- <div class="quantity">
+               <button class="plus-btn" type="button" name="button">
+               +
+               </button>
+               <input type="text" name="name" value="1">
+               <button class="minus-btn" type="button" name="button">
+               -
+               </button>
+            </div> -->
+         <div class="prices">
+            <div class="amount">price</div>
+            <div class="save"><b>Add To Wishlist</b></div>
+            <div class="remove"><b>Remove</b></div>
+         </div>
+      </div>
+
+      <div class="Cart-Items pad">
+         <div class="image-box">
+            <img src="images/buy-1.jpg" style="height:120px;">
+         </div>
+         <div class="about">
+            <h1 class="title-1">pdt name</h1>
+            <h3 class="subtitle">sub name</h3>
+            <img src="images/buy-2.jpg" style="height:30px;">
+         </div>
+         <div class="counter">
+            <div class="btn-1">+</div>
+            <div class="count">1</div>
+            <div class="btn-1">-</div>
+         </div>
+         <div class="prices">
+            <div class="amount">price</div>
+            <div class="save"><b>Add To Wishlist</b></div>
+            <div class="remove"><b>Remove</b></div>
+         </div>
+      </div>
+      <div class="row-4">
+         <hr class="hr-1">
+         <div class="checkout">
+            <div class="total">
+               <div>
+                  <div class="Subtotal">Sub-Total</div>
+                  <div class="items">2 items</div>
+                  <div class="savings">You Save</div>
+                  <div class="gst">GST</div>
+                  <div class="tax">18%</div>
+                  <div class="delivery">Delivery Charges</div>
+                  <div class="min-value">Free Shipping above 1000</div>
+                  <div class="total-value">Total</div>
+                  <div class="inc-tax">inc. all taxes</div>
+               </div>
+               <div>
+                  <div class="subtotal-amount">$6.18</div>
+                  <div class="saving-amt">$6.18</div>
+                  <div class="gst-tax">$6.18</div>
+                  <div class="del-charges">Free</div>
+                  <div class="total-amt">$6.18</div>
+               </div>
+            </div>
+            <button class="checkout-btn">Checkout</button>
+         </div>
+         <div class="address">
+            <div class="address-detail">
+               <div>
+                  <div class="address-1">Shipping Address</div>
+                  <div class="home">Home</div>
+                  <div class="door-no">Flat/Door Number: <b> NA</b></div>
+                  <div class="name">Name: <b>name</b></div>
+                  <div class="st-name">Street Name: <b>ST_NAME</b></div>
+                  <div class="district">District: <b>DIST</b></div>
+                  <div class="state">State: <b>STATE</b></div>
+                  <div class="pincode">Pincode: <b>PIN_CODE</b>
+                  </div>
+                  <div class="landmark">Landmark: <b>LDMK</b></div>
+                  <div class="ph-no">Phone Number: <b>1234567890</b></div>
+                  <button class="saved-address">Other Saved Addresses</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- <div class="small-container cart-page">
+      <table>
+         <tr>
+            <th>Product</th>
+            <th>Size</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+         </tr>
+         <tr>
+            <td>
+               <div class="cart-info">
+                  <img src="images/buy-1.jpg">
+                  <div>
+                     <p>Product name</p>
+                     <small>Price:---</small>
+                     <br>
+                     <a href="#">Remove</a>
+                  </div>
+               </div>
+            </td>
+            <td>S</td>
+            <td><input type="number" value="1"></td>
+            <td>Price</td>
+         </tr>
+         <tr>
+            <td>
+               <div class="cart-info">
+                  <img src="images/buy-1.jpg">
+                  <div>
+                     <p>Product name</p>
+                     <small>Price:---</small>
+                     <br>
+                     <a href="#">Remove</a>
+                  </div>
+               </div>
+            </td>
+            <td>S</td>
+            <td><input type="number" value="1"></td>
+            <td>Price</td>
+         </tr>
+         <tr>
+            <td>
+               <div class="cart-info">
+                  <img src="images/buy-1.jpg">
+                  <div>
+                     <p>Product name</p>
+                     <small>Price:---</small>
+                     <br>
+                     <a href="#">Remove</a>
+                  </div>
+               </div>
+            </td>
+            <td>S</td>
+            <td><input type="number" value="1"></td>
+            <td>Price</td>
+         </tr>
+      </table>
+      <hr>
+      <div class="total-price">
+         <table>
+            <tr>
+               <td>Subtotal</td>
+               <td>price</td>
+            </tr>
+            <tr>
+               <td>Shipping Charges</td>
+               <td>price</td>
+            </tr>
+            <tr>
+               <td>GST</td>
+               <td>price</td>
+            </tr>
+            <tr>
+               <td>Total</td>
+               <td>price</td>
+            </tr>
+         </table>
+      </div>
+   </div> -->
+</body>
+
+</html>
